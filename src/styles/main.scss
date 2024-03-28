@@ -1,7 +1,8 @@
 @use 'variaveis';
 @use 'hero';
+@use 'shows';
 
-@font-face{
+@font-face {
     font-family: Avenir;
     src: url(../../assets/fonts/Avenir-Regular.woff2);
     font-weight: 400;
@@ -56,9 +57,10 @@ body{
     @include text(12px);
 
     @media (max-width: 768px) {
-        @include text(11px);
+        @include text(22px);
     }
 }
+
 
 .link-text {
     @include text(18px);
