@@ -8,13 +8,13 @@
     font-weight: 400;
 }
 
-@font-face {
+@font-face{
     font-family: Avenir;
     src: url(../../assets/fonts/Avenir-Bold.woff2);
     font-weight: 700;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,7 +22,7 @@
     list-style: none;
 }
 
-body {
+body{
     background-color: variaveis.$corDeFundo;
 }
 
@@ -57,7 +57,7 @@ body {
     @include text(12px);
 
     @media (max-width: 768px) {
-        @include text(11px);
+        @include text(22px);
     }
 }
 

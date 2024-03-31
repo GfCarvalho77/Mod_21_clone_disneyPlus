@@ -12,16 +12,18 @@
 
       &__branding{
          max-width: 288px;
-         margin: 0 auto 38px;         
+         margin: 0 auto 34px;         
       }
       .title--small{
-         margin-bottom:64px;
+         margin-bottom:57px;
       }
+
       p{
-         margin-bottom: 20px;
+         margin-bottom: 18px;
 
          &:last-child {
-            margin-top: 60px;         }
+            margin-top: 54px;
+         }
       }
       &__combos{
          display: flex;

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const aba = document.querySelector(`[data-tab-id=${abaAlvo}]`);
             escondeTodasAbas();
             aba.classList.add('shows__list--is-active');
-            removeBotaoAtivo();
+            //removeBotaoAtivo();
             botao.target.classList.add('shows__tabs__button--is-active');
         })
     }
